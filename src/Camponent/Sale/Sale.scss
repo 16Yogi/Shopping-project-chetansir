@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Montserrat:ital,wght@1,900&display=swap');
+
+#sale-cf{
+    // height: 590px;
+    // width: 100%;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-image: url("https://cdn180.picsart.com/231482931053211.png");
+}
+#sale-cf img{
+    height: 590px;
+    // width: ;
+}
+#sale-cf h2{
+    font-size:42px;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-family: 'Montserrat', sans-serif;
+}
+#sale-cf h2:nth-child(1){
+    padding-top: 120px;
+}
+#sale-cf p{
+    font-weight: 600;
+}
+#sale-cf p:nth-child(3){
+    // line-height: 50px;
+    padding: 20px 0;
+}
+#sale-cf button{
+    width: 30%;
+   font-weight: 700;
+}

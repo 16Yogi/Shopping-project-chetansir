@@ -1,0 +1,27 @@
+#fav-cf h2{
+    font-weight: 700;
+    line-height: 100px;
+}
+
+#fav-cf #fav-img #fav-wrap{
+    height: auto;
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+#fav-cf #fav-img img{
+    height: 300px;
+    width: 100%;
+    border-radius: 10px;
+}
+#fav-cf #fav-img #fav-wrap p{
+    font-size:14px;
+    font-weight: 400;
+    margin: 5px 0;
+}
+#fav-cf #fav-img #fav-wrap p:nth-child(1){
+    font-weight: 600;
+}
+#fav-cf #fav-img #fav-wrap p i{
+    text-align: right;
+}

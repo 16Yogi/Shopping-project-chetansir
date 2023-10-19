@@ -1,0 +1,21 @@
+#footer-cf{
+    background-color: black;
+}
+#footer-cf h3{
+   font-size: 25px;
+   font-weight: 700;
+}
+#footer-cf ul a{
+    border-radius: 5px;
+    background-color: #ffc107;
+}
+#footer-cf ul a:hover{
+    transition: 0.5s;
+    background-color: white;
+}
+#footer-cf ul a li{
+    height: 40px;
+    width: 40px;
+    line-height: 40px;
+    font-weight: 700;
+}
