@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Montserrat:ital,wght@1,900&display=swap');
+
+#banner2-cf{
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-image: url("https://images.pexels.com/photos/4127459/pexels-photo-4127459.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+}
+#banner2-cf #banner2-cf2{
+    height: 400px;
+    background-color: rgb(0,0,0,0.5);
+}
+#banner2-cf #banner2-cf2 h2{ 
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    padding-top: 100px;
+    // padding-bottom: 20px;
+   
+}
+#banner2-cf #banner2-cf2 p{ 
+    // padding: 10px 0;
+    padding-top: 30px;
+    font-weight: 700;
+}

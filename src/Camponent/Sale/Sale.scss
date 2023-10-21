@@ -7,6 +7,12 @@
     background-size: 100% 100%;
     background-image: url("https://cdn180.picsart.com/231482931053211.png");
 }
+#sale-cf #sale-c{
+    height: 400px;
+    background-repeat: no-repeat;
+    background-size: 40% 100%;
+    background-image: url("https://www.pngarts.com/files/2/Model-PNG-Image-Transparent.png");
+}
 #sale-cf img{
     height: 590px;
     // width: ;
@@ -18,7 +24,7 @@
     font-family: 'Montserrat', sans-serif;
 }
 #sale-cf h2:nth-child(1){
-    padding-top: 120px;
+    // padding-top: 120px;
 }
 #sale-cf p{
     font-weight: 600;
@@ -29,5 +35,31 @@
 }
 #sale-cf button{
     width: 30%;
-   font-weight: 700;
+    font-weight: 700;
+}
+
+@media (max-width:920px) and (min-width:200px){
+    
+    #sale-cf #sale-c{
+        height: 300px;
+        text-align: center;
+        background-size: 60% 100%;   
+    }
+    #sale-cf h2{
+        text-align: center;
+        font-size: 18px;
+    }
+    #sale-cf p{
+        text-align: center;
+        font-size: 14px;
+    }
+    #sale-cf p:nth-child(3){
+        padding: 0;
+    }
+    #sale-cf button{
+        width: 40%;
+        font-size: 14px;
+        display:block;
+        margin: 0 auto;
+    }
 }

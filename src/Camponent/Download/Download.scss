@@ -24,3 +24,23 @@
     width: 100%;
 
 }
+
+@media (max-width:920px) and (min-width:200px){
+    #down-cf{
+        text-align: center;
+    }
+    #down-cf h2{
+        font-size: 18px;
+        text-align: center;
+    }
+    #down-cf h2:nth-child(1){
+        padding: 0;
+    }
+    #down-cf img{
+        height: 200px;
+        width: 60%;
+    }
+    #down-cf p{
+        padding: 5px 0;
+    }
+}

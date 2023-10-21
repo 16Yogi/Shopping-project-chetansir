@@ -33,3 +33,12 @@
 #cardlist-cf #cardimg p i{
     text-align: right;
 }
+
+@media (max-width:920px) and (min-width:200px){
+    #cardlist-cf h2{
+       font-size: 25px;
+    } 
+    #cardlist-cf p{  
+       font-size: 16px;
+    }
+}

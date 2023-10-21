@@ -1,14 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Montserrat:ital,wght@1,900&display=swap');
 
 #join-cf{
-    height: 400px;
+    // height: 400px;
+    // padding: 100px 0;
     // background-repeat: no-repeat;
     // background-size: 100% 100%;
     // background-image: url("https://cdn180.picsart.com/231482931053211.png");
     // background-image: url("https://www.freeiconspng.com/thumbs/dust-png/dust-png-33.png");
 }
 #join-cf h2{
-    padding-top: 40px;
+    // padding-top: 40px;
     font-weight: 700;
     font-family: 'Montserrat', sans-serif;
     color: white;
@@ -29,4 +30,17 @@
 }
 #join-cf .form button{
     width: 25%;
+}
+
+@media (max-width:920px) and (min-width:200px){
+    #join-cf h2{
+        padding-top: 10px;
+        font-size: 20px;
+    }
+    #join-cf p{
+        line-height: 20px;
+    }
+    #join-cf .form{
+        width: 100%;
+    }
 }

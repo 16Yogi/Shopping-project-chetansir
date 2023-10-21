@@ -4,8 +4,8 @@ export default function Join() {
   return (
     <>
         <div className="container-fluid py-5 bg-warning" id='join-cf'>
-            <div className="container">
-                <div className="col-6 mx-auto text-center">
+            <div className="container py-5">
+                <div className="col-lg-6 col-sm-12 mx-auto text-center">
                     <h2 className='text-uppercase'>join shopping community to get monthly promo</h2>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto, quasi.</p>
                     <div className="form bg-white mx-auto p-2">

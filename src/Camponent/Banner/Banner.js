@@ -36,7 +36,7 @@ export default function Banner() {
         >
           <SwiperSlide className="py-4" id="banner-img">
             <div className="container p-3" id="bg">
-                <div className="col py-5">
+                <div className="col py-5" id="bg-content">
                   <h2><span className="px-2 bg-white">let's</span></h2>
                   <h2><span className="px-2 ">Explore</span></h2>
                   <h2><span className="px-2 bg-info">unique</span></h2>

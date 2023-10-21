@@ -44,3 +44,31 @@
     background-image: url("https://images.pexels.com/photos/2309235/pexels-photo-2309235.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
 }
 
+// -----------------------------------
+
+@media (max-width:920px) and (min-width:200px){
+    #Banner-cf #banner-img #bg{
+        height: 280px;
+        text-align: center;
+        padding: 0;
+    }
+    #Banner-cf #banner-img #bg #bg-content{
+        padding: 0;
+    }
+    #Banner-cf #banner-img #bg h2{
+        font-size: 18px;
+    }
+    #Banner-cf #banner-img #bg h2:nth-child(1){
+       padding-top: 0px;
+    }
+    #Banner-cf #banner-img #bg p{
+        font-size: 12px;
+        line-height: 10px;
+    }
+    #Banner-cf #banner-img #bg button{
+        height: auto;
+        width: 30%;
+        font-size: 12px;
+        font-weight: 700;
+    }
+}
