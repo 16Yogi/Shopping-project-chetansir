@@ -6,8 +6,7 @@ import Catalogue from './Pages/Catalogue';
 import Fashion from './Pages/Fashion';
 import Faviroid from './Pages/Faviroid';
 import Lifestyle from './Pages/Lifestyle';
-import Login from './Camponent/Form/Login';
-
+import Loginpage from './Pages/Loginpage';
 function App() {
   return (
     <>
@@ -20,7 +19,7 @@ function App() {
           <Route path='/fashion' element={<Fashion/>}/>
           <Route path='/favioret' element={<Faviroid/>}/>
           <Route path='/lifestyle' element={<Lifestyle/>}/>
-          <Route path='/login' element={<Login/>}/>
+          <Route path='/login' element={<Loginpage/>}/>
         </Routes>
       </BrowserRouter>
       {/* <Home/> */}
