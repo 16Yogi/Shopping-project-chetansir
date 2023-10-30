@@ -55,7 +55,7 @@ export default function Nav() {
                   </Link>
                 </li>
                 <li className="nav-item p-2">
-                  <Link to="/login" className="nav-link">
+                  <Link to="/singin" className="nav-link">
                     SIGN UP
                   </Link>
                 </li>

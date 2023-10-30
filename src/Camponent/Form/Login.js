@@ -1,5 +1,6 @@
 import React from 'react'
 import './Login.scss'
+import { Link } from 'react-router-dom'
 export default function Login() {
   return (
     <>
@@ -9,7 +10,7 @@ export default function Login() {
               <div className="col">
                 <div className="col text-center">
                   <h3>Sing in</h3>
-                  <p>Already have an account? <span className='text-info'>Sign up here</span></p>
+                  <p>Already have an account? <span className='text-info'><Link to='/singup'>Sign up here</Link></span></p>
                 </div>
                 <div className='col text-center' id='social-media'>
                   <p><i class="fa-brands fa-google"></i> <span>Sing in with Google</span></p>
@@ -17,6 +18,9 @@ export default function Login() {
                 <div className='col text-center' id='social-media'>
                   <p><i class="fa-brands fa-facebook"></i> <span>Sing in with Facebook</span></p>
                 </div>
+              </div>
+              <div className="py-2 col text-center">
+                <p>Or Sign In With Email</p>
               </div>
               <form>
                 <div className="form-group">
