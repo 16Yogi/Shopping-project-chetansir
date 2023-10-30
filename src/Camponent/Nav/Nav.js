@@ -1,5 +1,6 @@
 import React from "react";
 import "./Nav.scss";
+import { Link } from "react-router-dom";
 export default function Nav() {
   // const dark = ()=> {
   //   document.getElementsByTagName('body')[0].style.backgroundColor = "black";
@@ -29,34 +30,34 @@ export default function Nav() {
             >
               <ul className="navbar-nav">
                 <li className="nav-item p-2">
-                  <a href="/Home" className="nav-link">
+                  <Link to="/catogue" className="nav-link">
                     CATALOGUE
-                  </a>
+                  </Link>
                 </li>
                 <li className="nav-item p-2">
-                  <a href="/About" className="nav-link">
+                  <Link to="/about" className="nav-link">
                     ABOUT US
-                  </a>
+                  </Link>                    
                 </li>
                 <li className="nav-item p-2">
-                  <a href="/Servive" className="nav-link">
+                  <Link to="/fashion" className="nav-link">
                     FASHION
-                  </a>
+                  </Link>                    
                 </li>
                 <li className="nav-item p-2">
-                  <a href="/Project" className="nav-link">
+                  <Link to="/favioret" className="nav-link">
                     FAVOURITE
-                  </a>
+                  </Link>                    
                 </li>
                 <li className="nav-item p-2">
-                  <a href="/Contact" className="nav-link">
+                  <Link to="/lifestyle" className="nav-link">
                     LIFESTYLE
-                  </a>
+                  </Link>
                 </li>
                 <li className="nav-item p-2">
-                  <a href="/Contact" className="nav-link">
+                  <Link to="/login" className="nav-link">
                     SIGN UP
-                  </a>
+                  </Link>
                 </li>
               </ul>
             </div>

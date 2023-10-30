@@ -8,6 +8,7 @@ import Favirout from '../Camponent/Favirout/Favirout'
 import Download from '../Camponent/Download/Download'
 import Join from '../Camponent/Join/Join'
 import Footer from '../Camponent/Footer/Footer'
+import Cardlist2 from '../Camponent/Cardlist/Cardlist2'
 
 export default function Home() {
   return (
@@ -16,6 +17,7 @@ export default function Home() {
        <Banner/>
        <Toplist/>
        <Cardlist/>
+       <Cardlist2/>
        <Sale/>
        <Favirout/>
        <Download/>

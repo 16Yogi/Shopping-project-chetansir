@@ -1,0 +1,20 @@
+#cardlist2-cf img{
+    height: 180px;
+    width: 100%;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+}
+#cardlist2-cf #cardlist-cd{
+    // box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+    border-radius: 5px;
+}
+#cardlist2-cf #cardlist-cd .cardlist-bottom{
+    background-color: rgba(233, 233, 233, 0.596);
+}
+#cardlist2-cf #cardlist-cd .cardlist-bottom i,span{
+   cursor: pointer;
+}
+#cardlist2-cf #cardlist-cd .cardlist-bottom i{
+   color: rgb(233, 12, 78);
+}
