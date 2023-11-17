@@ -1,0 +1,77 @@
+#buypage-cf img{
+    width: 100%;
+}
+#buypage-cf p span{
+   font-weight: 500;
+}
+#buypage-cf p span a{
+   text-decoration: none;
+}
+#buypage-cf h5{
+    font-weight: 700;
+    font-size: 24px;
+}
+#buypage-cf p,span{
+    font-weight: 500;
+    // font-size: 20px;
+}
+#buypage-cf #bypg{
+    line-height: 50px;
+    font-size: 20px;
+}
+#buypage-cf .byp-size{
+    font-size: 14px;
+    font-weight: 700;
+}
+#buypage-cf .size span{
+    width: 20%;
+    border: 0.8px solid gray;
+    border-radius: 5px;
+    // #ffc107
+}
+#buypage-cf .bypro-btn button{
+    width: 80%;
+    font-weight: 600;
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+}
+#buypage-cf .bypro-btn .colorbtn{
+    background-color: #ffc107;
+}
+#buypage-cf .checkpincode{
+    width: 80%;
+    border: 0.5px solid gray;
+    border-radius: 5px;
+    // background-color: #ffc107;
+}
+#buypage-cf .checkpincode input{
+    width: 80%;
+    height: 40px;
+    border: none;
+    outline: none;
+}
+#buypage-cf .checkpincode a{
+    text-align: center;
+}
+#buypage-cf .addDetails i{
+    font-size: 14px;
+}
+#buypage-cf .addDetails span{
+   line-height: 25px;
+   font-weight: 400;
+}
+#buypage-cf .productDetails span{
+   font-weight: 400;
+}
+#buypage-cf .rating ul li span{
+   font-size: 12px;
+   color: gray;
+}
+#buypage-cf .rating ul li .progress{
+    height: 10px;
+    // width: 30%;
+    // background-color: red;
+}
+#buypage-cf .rating ul li .progress strong{
+    width: 80%;
+    // background-color: gray;
+}

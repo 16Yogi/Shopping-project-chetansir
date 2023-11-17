@@ -8,6 +8,7 @@ import Faviroid from './Pages/Faviroid';
 import Lifestyle from './Pages/Lifestyle';
 import Loginpage from './Pages/Loginpage';
 import Regform from './Pages/Regform';
+import Buyproduct from './Pages/Buyproduct';
 function App() {
   return (
     <>
@@ -22,6 +23,7 @@ function App() {
           <Route path='/lifestyle' element={<Lifestyle/>}/>
           <Route path='/singin' element={<Loginpage/>}/>
           <Route path='/singup' element={<Regform/>}/>
+          <Route path='/buyproduct' element={<Buyproduct/>}/>
         </Routes>
       </BrowserRouter>
       {/* <Home/> */}
