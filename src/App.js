@@ -9,6 +9,7 @@ import Lifestyle from './Pages/Lifestyle';
 import Loginpage from './Pages/Loginpage';
 import Regform from './Pages/Regform';
 import Buyproduct from './Pages/Buyproduct';
+import Allproducts from './Pages/Allproducts';
 function App() {
   return (
     <>
@@ -24,6 +25,7 @@ function App() {
           <Route path='/singin' element={<Loginpage/>}/>
           <Route path='/singup' element={<Regform/>}/>
           <Route path='/buyproduct' element={<Buyproduct/>}/>
+          <Route path='/allproducts' element={<Allproducts/>}/>
         </Routes>
       </BrowserRouter>
       {/* <Home/> */}

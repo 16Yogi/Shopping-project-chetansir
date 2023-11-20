@@ -32,16 +32,17 @@ export default function Cardlist3() {
                 <div className="col py-3">
                     <OwlCarousel className="latest-news owl-carousel owl-theme" margin={10} items={"4"} loop={true} mouseDrag={true} dots={true} autoplay={true}
                     {...options} nav>
+
                         <div className="item rounded">
                             <div className="card rounded product-card border">
                                 <img src="https://rukminim2.flixcart.com/image/612/612/xif0q/shoe/r/k/e/3-lp5951-3-layasa-multicolor-original-imaghzbswzhdbcwg.jpeg?q=70" alt="" />
                                 <div className="card-body">
-                                  <h5 className="card-title">Card title</h5>
+                                  <h5 className="card-title">Card title 1</h5>
                                   <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                                   <a href="/" className="btn btn-dark d-block mx-auto">Go somewhere</a>
                                 </div>
                             </div>
-                        </div>
+                        </div>                        
                         <div className="item rounded">
                             <div className="card rounded product-card border">
                                 <img src="https://rukminim2.flixcart.com/image/612/612/xif0q/shoe/r/k/e/3-lp5951-3-layasa-multicolor-original-imaghzbswzhdbcwg.jpeg?q=70" alt="" />
